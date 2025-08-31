@@ -1,0 +1,30 @@
+//modules
+@use './base/reset';
+@use './base/vars';
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "TradeGothic LT Extended";   /*Can be any text*/
+    src: url("../fonts/trade-gothic-lt-std-extended.otf") format("truetype");
+}
+
+
+
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    background-color: red;
+}
+
+
+.container {
+    max-width: 1252px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
