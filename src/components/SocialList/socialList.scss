@@ -1,0 +1,11 @@
+.social-list {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    &__item {
+        &-img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
