@@ -48,41 +48,44 @@
                         }
                     }
                 }
+
+
+                .flight-search__buttons {
+                    display: flex;
+                    gap: 24px;
+                    justify-content: flex-end;
+                    .flight-search__promocode {
+                        &-input {
+                            border: none;
+                            &::placeholder {
+                                font-weight: 500;
+                                font-size: 14px;
+                                color: var(--blackish-green);
+                            }
+                        }
+                    }
+                    
+                    .flight-search__form-btn {
+                        display: flex;
+                        gap: 4px;
+                        align-items: center;
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: var(--blackish-green);
+                        border-radius: 4px;
+                        padding: 8px 16px;
+                        background: var(--mint-green);
+                        &-img {
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                   
+                }
                 
             }
             
-            .flight-search__buttons {
-                display: flex;
-                gap: 24px;
-                justify-content: flex-end;
-                .flight-search__promocode {
-                    &-input {
-                        border: none;
-                        &::placeholder {
-                            font-weight: 500;
-                            font-size: 14px;
-                            color: var(--blackish-green);
-                        }
-                    }
-                }
-                
-                .flight-search__form-btn {
-                    display: flex;
-                    gap: 4px;
-                    align-items: center;
-                    font-weight: 500;
-                    font-size: 14px;
-                    color: var(--blackish-green);
-                    border-radius: 4px;
-                    padding: 8px 16px;
-                    background: var(--mint-green);
-                    &-img {
-                        width: 16px;
-                        height: 16px;
-                    }
-                }
-               
-            }
+           
             
         }
     }
