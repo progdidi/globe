@@ -1,0 +1,91 @@
+.search {
+    &__inner {
+        padding: 16px 16px 32px 32px;
+        background-color: #fff;
+        border-radius: 16px;
+        box-shadow: 0 4px 16px 0 rgba(141, 211, 187, 0.15);
+
+        .search__tabs {
+            display: flex;
+            align-items: center;
+            margin-bottom: 48px;
+            .search-btn {
+                padding: 12px 0;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-weight: 600;
+                font-size: 16px;
+                color: var(--blackish-green);
+                &__img {
+                    width: 24px;
+                    height: 24px;
+                }
+                &:nth-child(odd) {
+                    padding-right: 32px;
+                    border-right: 1px solid #d7e2ee;;
+                }
+                &:nth-child(even) {
+                    padding-left: 32px;
+                }
+            }
+        }
+        
+        
+        .search__info {
+            .flight-search__form {
+                .flight-search__data {
+                    display: grid;
+                    grid-template-columns: 27% 12% 27% 27%;
+                    gap: 24px;
+                    margin-bottom: 32px;
+                    .flight-search__form-input {
+                        border-radius: 4px 4px 0 0;
+                        padding: 18px 16px;
+                        &::placeholder {
+                            font-size: 16px;
+                            color: #1c1b1f;
+                        }
+                    }
+                }
+                
+            }
+            
+            .flight-search__buttons {
+                display: flex;
+                gap: 24px;
+                justify-content: flex-end;
+                .flight-search__promocode {
+                    &-input {
+                        border: none;
+                        &::placeholder {
+                            font-weight: 500;
+                            font-size: 14px;
+                            color: var(--blackish-green);
+                        }
+                    }
+                }
+                
+                .flight-search__form-btn {
+                    display: flex;
+                    gap: 4px;
+                    align-items: center;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: var(--blackish-green);
+                    border-radius: 4px;
+                    padding: 8px 16px;
+                    background: var(--mint-green);
+                    &-img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+               
+            }
+            
+        }
+    }
+}
+
+
