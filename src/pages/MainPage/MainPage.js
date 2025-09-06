@@ -1,5 +1,6 @@
 import NewsletterSection from '../../components/NewsletterSection/NewsletterSection';
 import PlaceItem from '../../components/PlaceItem/PlaceItem';
+import ReviewsItem from '../../components/ReviewsItem/ReviewsItem';
 import SearchForm from '../../components/SearchForm/SearchForm';
 import './mainPage.scss';
 
@@ -27,6 +28,7 @@ const MainPage = () => {
                 </div>
             </section>
 
+            <ReviewsItem/>
 
             <SearchForm/>
             <NewsletterSection/>
