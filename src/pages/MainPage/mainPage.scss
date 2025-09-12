@@ -1,3 +1,50 @@
+.promo {
+    min-height: calc(100vh - 100px);
+    margin-top: -100px;
+    background-image: url('./promo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &__inner {
+        padding-top: 128px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .promo__subtitle {
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 150%;
+            text-align: center;
+            color: var(--neutrals);
+            margin-bottom: 4px;
+        }
+
+        .promo__title {
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 80px;
+            line-height: 150%;
+            text-transform: uppercase;
+            text-align: center;
+            color: var(--neutrals);
+            margin-bottom: 16px;
+
+        }
+
+        .promo__text {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;
+            text-align: center;
+            color: var(--neutrals);
+
+        }
+    }
+}
+
 .places {
     margin-bottom: 80px;
     &__items {

@@ -8,6 +8,18 @@ const MainPage = () => {
     return ( 
         <>
 
+            <section className="promo">
+                <div className="container">
+                    <div className="promo__inner">
+                        <h2 className="promo__subtitle">Helping Others</h2>
+                        <h1 className="promo__title">Live & Travel</h1>
+                        <p className="promo__text">Special offers to suit your plan</p>
+                    </div>
+                </div>
+            </section>
+            
+            <SearchForm/>
+
             <section className="places">
                 <div className="container">
                     <div className="places__inner">
@@ -28,9 +40,10 @@ const MainPage = () => {
                 </div>
             </section>
 
+
+
             <ReviewsItem/>
 
-            <SearchForm/>
             <NewsletterSection/>
         </>
      );

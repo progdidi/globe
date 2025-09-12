@@ -22,9 +22,47 @@
         font-family: var(--second-family);
         font-weight: 700;
         font-size: 16px;
+        display: block;
         text-align: right;
         color: var(--blackish-green);
+        margin-bottom: 16px;
+    }
+
+    &__rating {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    &__author {
+        margin-bottom: 40px;
+        &-name {
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--blackish-green);
+            margin-bottom: 4px;
+        }
+
+        &-place {
+            font-weight: 500;
+            font-size: 12px;
+            color: var(--blackish-green);
+            opacity: 0.5;
+            margin-bottom: 12px;
+
+        }
+
+        &-link {
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 12px;
+            color: var(--blackish-green);
+            opacity: 0.4;
+        }
     }
     &__img {
+        border-radius: 8px;
     }
 }
