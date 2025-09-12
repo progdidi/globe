@@ -1,0 +1,30 @@
+.review-item {
+    border-radius: 20px;
+    padding: 24px;
+    width: 425px;
+    box-shadow: 2px 4px 16px 0 rgba(17, 34, 17, 0.1);
+    background: var(--neutrals);
+    &__title {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--blackish-green);
+        margin-bottom: 16px;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--blackish-green);
+        opacity: 0.5;
+        margin-bottom: 12px;
+    }
+    &__link {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 16px;
+        text-align: right;
+        color: var(--blackish-green);
+    }
+    &__img {
+    }
+}
