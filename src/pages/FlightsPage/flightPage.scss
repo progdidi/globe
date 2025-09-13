@@ -1,0 +1,29 @@
+.flights-promo {
+    background-image: url('./promo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    &__inner {
+        padding-top: 80px;
+        .flights-promo__title {
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 45px;
+            color: var(--neutrals);
+            margin-bottom: 8px;
+            width: 440px;
+
+        }
+
+        .flights-promo__text {
+            font-weight: 500;
+            font-size: 20px;
+            color: var(--neutrals);
+        }
+    }
+}
+
+.flights-map {
+    margin-bottom: 80px;
+}
