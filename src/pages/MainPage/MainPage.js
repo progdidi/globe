@@ -2,6 +2,7 @@ import NewsletterSection from '../../components/NewsletterSection/NewsletterSect
 import PlaceItem from '../../components/PlaceItem/PlaceItem';
 import ReviewsItem from '../../components/ReviewsItem/ReviewsItem';
 import SearchForm from '../../components/SearchForm/SearchForm';
+import SearchItem from '../../components/SearchItem/SearchItem';
 import './mainPage.scss';
 
 const MainPage = () => {
@@ -36,6 +37,16 @@ const MainPage = () => {
                             <PlaceItem/>
                             <PlaceItem/>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="search">
+                <div className="container">
+                    <div className="search__inner">
+                        <SearchItem/>
+
+                        <SearchItem/>
                     </div>
                 </div>
             </section>
