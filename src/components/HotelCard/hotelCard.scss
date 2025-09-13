@@ -1,0 +1,68 @@
+.hotel {
+    display: flex;
+    box-shadow: 0 4px 16px 0 rgba(17, 34, 17, 0.05);
+    width: 100%;
+    &__img {
+
+    }
+
+    &__info {
+        padding: 24px;
+        .hotel__title {
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--blackish-green);
+            width: 361px;
+            margin-bottom: 16px;
+        }
+
+        .hotel__location {
+            display: flex;
+            gap: 2px;
+            align-items: center;
+            margin-bottom: 12px;
+            &-img {
+                width: 16h;
+                height: 16px;
+            }
+
+            &-address {
+                font-weight: 500;
+                font-size: 12px;
+                color: var(--blackish-green);
+                opacity: 0.75;
+            }
+        }
+
+        .hotel__rating {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-weight: 500;
+            font-size: 12px;
+            color: var(--blackish-green);
+            .hotel__stars {
+                display: flex;
+                align-items: center;
+                &-img {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+
+        .hotel__aminities {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 12px;
+            color: var(--blackish-green);
+            font-weight: 500;
+            span {
+                font-weight: 700;
+
+            }
+        }
+    }
+}

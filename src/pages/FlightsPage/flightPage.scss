@@ -27,3 +27,64 @@
 .flights-map {
     margin-bottom: 80px;
 }
+
+.promo-flight {
+    margin-bottom: 120px;
+    &__title {
+    }
+    &__text {
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 24px;
+    }
+    &__link {
+    }
+    &__inner {
+        display: flex;
+        gap: 24px;
+        .promo-flight__info {
+            border-radius: 20px;
+            padding: 24px;
+            background: var(--mint-green);
+            width: 552px;
+            &-title {
+                width: 363px;
+                font-family: var(--second-family);
+                font-weight: 700;
+                font-size: 40px;
+                color: var(--blackish-green);
+                margin-bottom: 24px;
+            }
+            &-price {
+                border-radius: 8px;
+                padding: 8px;
+                background: var(--neutrals);
+            }
+            &-text {
+                font-size: 14px;
+                color: var(--blackish-green);
+            }
+            &-btn {
+                width: 100%;
+                border-radius: 4px;
+                padding: 8px 16px;
+                background: var(--neutrals);
+                font-weight: 500;
+                font-size: 14px;
+                color: var(--blackish-green);
+            }
+        }
+        
+        .promo-flight__gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px 24px;
+            &-img {
+                border: 2px solid var(--mint-green);
+                border-radius: 12px;
+            }
+        }
+        
+    }
+    
+}

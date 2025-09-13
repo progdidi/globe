@@ -34,3 +34,14 @@ body {
     color: #000;
     margin-bottom: 16px;
 }
+
+.section-link {
+    display: block;
+    border: 1px solid var(--mint-green);
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--blackish-green);
+}

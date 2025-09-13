@@ -1,0 +1,37 @@
+.hotels {
+    &__inner {
+        display: flex;
+        gap: 25px;
+    }
+}
+
+.hotels-filter {
+    width: 367px;
+    padding-right: 24px;
+    height: 100%;
+    border-right: 1px solid var(--blackish-green);;
+    &__title {
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--blackish-green);
+        margin-bottom: 32px;
+    }
+
+    &__item {
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+        border-bottom: 0.25px solid var(--blackish-green);;
+        &-title {
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--blackish-green);
+            margin-bottom: 16px;
+        }
+
+        .hotels-filter__label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+    }
+}
