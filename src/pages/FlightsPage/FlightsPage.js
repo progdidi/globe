@@ -1,3 +1,4 @@
+import FlightsItem from '../../components/FlightsItem/FlightsItem';
 import SearchForm from '../../components/SearchForm/SearchForm';
 import './flightPage.scss';
 
@@ -29,6 +30,14 @@ const FlightsPage = () => {
                 <img src={map} alt="" className="flights-map__img" />
             </div>
             
+          </section>
+
+          <section className="flights">
+            <div className="container">
+                <div className="flights__inner">
+                    <FlightsItem/>
+                </div>
+            </div>
           </section>
 
 
