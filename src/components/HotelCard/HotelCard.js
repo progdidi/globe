@@ -39,12 +39,18 @@ const HotelCard = () => {
                     <span>20+ </span>Aminities
                 </div>
 
-                <div className="hotel__reviews"></div>
+                <div className="hotel__reviews">
+                Very Good 371 reviews
+                </div>
 
-                <div className="hotel__price"></div>
+                <div className="hotel__price">starting from
+$240/night
+excl. tax</div>
 
                 <div className="hotel__buttons">
-                    <button className="hotel__btn-like"></button>
+                    <button className="hotel__btn">
+                        <img src={like} alt="" className="hotel__btn-img" />
+                    </button>
                     <a href="" className="hotel__link">View Place</a>
                 </div>
             </div>

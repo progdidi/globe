@@ -1,0 +1,18 @@
+.social-login {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    &__btn {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid var(--mint-green);
+        padding: 16px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}

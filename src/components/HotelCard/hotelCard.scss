@@ -2,6 +2,8 @@
     display: flex;
     box-shadow: 0 4px 16px 0 rgba(17, 34, 17, 0.05);
     width: 100%;
+    position: relative;
+    margin-bottom: 24px;
     &__img {
 
     }
@@ -62,6 +64,45 @@
             span {
                 font-weight: 700;
 
+            }
+        }
+
+        .hotel__reviews {
+            margin-bottom: 24px;
+        }
+
+        .hotel__price {
+            position: absolute;
+            width: 107px;
+            top: 0;
+            right: 0;
+            font-weight: 500;
+            font-size: 12px;
+            color: var(--blackish-green);
+            opacity: 0.75;
+        }
+
+        .hotel__buttons {
+            display: flex;
+            gap: 16px;
+            .hotel__btn {
+                width: 48px;
+                height: 48px;
+                padding: 14px;
+                border: 1px solid var(--mint-green);
+                border-radius: 4px;
+            }
+
+            .hotel__link {
+                border-radius: 4px;
+                padding: 8px 16px;
+                background: var(--mint-green);
+                width: 100%;
+                font-weight: 600;
+                font-size: 14px;
+                color: var(--blackish-green);
+                text-align: center;
+                display: block;
             }
         }
     }
