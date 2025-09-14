@@ -22,7 +22,7 @@ function App() {
           <HotelBookingPage/>
           <FavouritesPage/>
           <AccountPage/>
-          <LoginPage/>
+          {/* <LoginPage/> */}
         </main>
       <Footer/>
 

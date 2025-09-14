@@ -1,0 +1,44 @@
+.account-page {
+    &__header {
+        margin-bottom: 32px;
+        .account-page__user {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+            &-img {
+                margin-bottom: 24px;
+            }
+
+            &-name {
+                font-weight: 600;
+                font-size: 24px;
+                text-align: center;
+                color: var(--blackish-green);
+                margin-bottom: 8px;
+            }
+
+            &-mail {
+                font-weight: 400;
+                font-size: 16px;
+                text-align: center;
+                color: var(--blackish-green);
+                opacity: 0.75;
+            }
+        }
+    }
+
+    &__info {
+        .account-page__tabs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            .account-page__tab {
+                font-weight: 600;
+                font-size: 16px;
+                color: var(--blackish-green);
+                padding: 30px 24px;
+            }
+        }
+    }
+}
