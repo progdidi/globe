@@ -1,0 +1,169 @@
+.login-page {
+    padding: 104px 0;
+    &__innner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+        .login-page__info {
+            width: 512px;
+            .login-page__logo {
+                margin-bottom: 64px;
+            }
+            .login-page__title {
+                font-family: var(--second-family);
+                font-weight: 700;
+                font-size: 40px;
+                color: #000;
+                margin-bottom: 16px;
+            }
+            .login-page__text {
+                font-weight: 400;
+                font-size: 16px;
+                color: var(--blackish-green);
+                opacity: 0.75;
+                margin-bottom: 48px;
+            }
+            .login-page__form {
+                width: 100%;
+                margin-bottom: 16px;
+                &-label {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #1c1b1f;
+                    width: 100%;
+                }
+                &-input {
+                    border: 1px solid #79747e;
+                    border-radius: 4px;
+                    padding: 8px 16px;
+                    width: 100%;
+                    background-color: transparent;
+                }
+                &-btn {
+                    width: 100%;
+                    border-radius: 4px;
+                    padding: 8px 16px;
+                    background: var(--mint-green);
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: var(--blackish-green);
+                    text-align: center;
+                }
+                
+            }
+
+            .login-page__form-text {
+                font-weight: 500;
+                font-size: 14px;
+                text-align: center;
+                color: var(--blackish-green);
+                margin-bottom: 40px;
+            }
+            
+            .login-page__social {
+                &-text {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: var(--blackish-green);
+                    opacity: 0.5;
+                }
+            }
+           
+        }
+        
+        &__media {
+            &-img {
+            }
+        }
+    }
+    
+    
+}
+
+.signup-page {
+    padding: 140px 0;
+    .signup-page__inner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+
+        .login-page__media {
+            width: 488px;
+        }
+        .signup-page__info {
+            width: 640px;
+            .signup-page__logo {
+                margin-bottom: 64px;
+            }
+            .signup-page__title {
+                font-family: var(--second-family);
+                font-weight: 700;
+                font-size: 40px;
+                color: #000;
+                margin-bottom: 16px;
+            }
+            .signup-page__text {
+                font-weight: 400;
+                font-size: 16px;
+                color: var(--blackish-green);
+                opacity: 0.75;
+                margin-bottom: 48px;
+            }
+            .signup-page__form {
+                &-content {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 24px;
+                    .signup-page__form-label {
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #1c1b1f;
+                        width: 100%;
+                    }
+                    .signup-page__form-input {
+                        border: 1px solid #79747e;
+                        border-radius: 4px;
+                        padding: 8px 16px;
+                        width: 100%;
+                        background-color: transparent;
+                    }
+                }
+
+                &-btn {
+                    width: 100%;
+                    border-radius: 4px;
+                    padding: 8px 16px;
+                    background: var(--mint-green);
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: var(--blackish-green);
+                    text-align: center;
+                }
+            }
+            
+            
+           
+            .signup-page__form-text {
+                font-weight: 500;
+                font-size: 14px;
+                text-align: center;
+                color: var(--blackish-green);
+                margin-bottom: 40px;
+            }
+            .login-page__social {
+                &-text {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: var(--blackish-green);
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+   
+    
+    
+}
+
