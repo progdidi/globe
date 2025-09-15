@@ -28,7 +28,7 @@ const AccountPage = () => {
 
                     <div className="account-page__content">
                         <div className="account-page__content-item" data-account="account">
-                            <h3 className="section-title account-page__title">Account</h3>
+                          
                         </div>
 
 
