@@ -1,0 +1,26 @@
+.user-history__item {
+    display: flex;
+    .user-history__img {
+
+    }
+
+    .user-history__date {
+        display: flex;
+        &-check {
+            .user-history__date-title {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 16px;
+                color: var(--blackish-green);
+                opacity: 0.75;
+                margin-bottom: 8px;
+            }
+
+            .user-history__date-text {
+                font-weight: 600;
+                font-size: 20px;
+                color: var(--blackish-green);
+            }
+        }
+    }
+}
