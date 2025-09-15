@@ -1,3 +1,4 @@
+import HistoryItem from './HistoryItem/HistoryItem';
 import './accountPage.scss';
 
 //images
@@ -85,7 +86,24 @@ const AccountPage = () => {
 
                         
 
-                        <div className="account-page__content-item" data-account="history"></div>
+                        <div className="account-page__content-item" data-account="history">
+
+                            <h3 className="account-page__content-title">Tickets/Bookings
+Upcoming</h3>
+
+                        <div className="user-history">
+                            <div className="user-history__tabs">
+                                <button className="user-history__tab">Flights</button>
+                                <button className="user-history__tab">Stays</button>
+                            </div>
+
+                            <div className="user-history__data">
+                                <HistoryItem/>
+                            </div>
+                        </div>
+
+
+                        </div>
                         <div className="account-page__content-item" data-account="payment"></div>
                     </div>
 

@@ -76,6 +76,22 @@
                     }
                 }
             }
+
+            .user-history {
+                &__tabs {
+                    border-radius: 12px;
+                    box-shadow: 0 4px 16px 0 rgba(17, 34, 17, 0.05);
+                    background: var(--neutrals);
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    .user-history__tab {
+                        padding: 28px 24px;
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: var(--blackish-green);
+                    }
+                }
+            }
         }
     }
 }
