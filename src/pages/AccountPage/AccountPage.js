@@ -28,10 +28,44 @@ const AccountPage = () => {
 
                     <div className="account-page__content">
                         <div className="account-page__content-item" data-account="account">
-                          
+
+                            <h3 className="account-page__content-title">Account</h3>
+
+                            <div className="user-data">
+                                <div className="user-data__item">
+                                    <h6 className="user-data__item-title"></h6>
+                                    <p className="user-data__item-text"></p>
+                                    <button className="user-data__item-btn">Change</button>
+                                </div>
+                                <div className="user-data__item">
+                                    <h6 className="user-data__item-title"></h6>
+                                    <p className="user-data__item-text"></p>
+                                    <button className="user-data__item-btn">Change</button>
+                                </div>
+                                <div className="user-data__item">
+                                    <h6 className="user-data__item-title"></h6>
+                                    <p className="user-data__item-text"></p>
+                                    <button className="user-data__item-btn">Change</button>
+                                </div>
+                                <div className="user-data__item">
+                                    <h6 className="user-data__item-title"></h6>
+                                    <p className="user-data__item-text"></p>
+                                    <button className="user-data__item-btn">Change</button>
+                                </div>
+                                <div className="user-data__item">
+                                    <h6 className="user-data__item-title"></h6>
+                                    <p className="user-data__item-text"></p>
+                                    <button className="user-data__item-btn">Change</button>
+                                </div>
+                                <div className="user-data__item">
+                                    <h6 className="user-data__item-title"></h6>
+                                    <p className="user-data__item-text"></p>
+                                    <button className="user-data__item-btn">Change</button>
+                                </div>
+                            </div>
                         </div>
 
-
+                        
 
                         <div className="account-page__content-item" data-account="history"></div>
                         <div className="account-page__content-item" data-account="payment"></div>
