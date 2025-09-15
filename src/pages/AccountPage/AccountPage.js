@@ -33,33 +33,51 @@ const AccountPage = () => {
 
                             <div className="user-data">
                                 <div className="user-data__item">
-                                    <h6 className="user-data__item-title"></h6>
-                                    <p className="user-data__item-text"></p>
+                                    <div>
+                                        <h6 className="user-data__item-title">Name</h6>
+                                        <p className="user-data__item-text">John Doe</p>
+                                    </div>
+                                    
                                     <button className="user-data__item-btn">Change</button>
                                 </div>
                                 <div className="user-data__item">
-                                    <h6 className="user-data__item-title"></h6>
-                                    <p className="user-data__item-text"></p>
+                                    <div>
+                                    <h6 className="user-data__item-title">Email</h6>
+                                    <p className="user-data__item-text">john.doe@gmail.com</p>
+                                    </div>
+                                    
                                     <button className="user-data__item-btn">Change</button>
                                 </div>
                                 <div className="user-data__item">
-                                    <h6 className="user-data__item-title"></h6>
+                                    <div>
+                                    <h6 className="user-data__item-title">Password</h6>
                                     <p className="user-data__item-text"></p>
+                                    </div>
+                                    
                                     <button className="user-data__item-btn">Change</button>
                                 </div>
                                 <div className="user-data__item">
-                                    <h6 className="user-data__item-title"></h6>
-                                    <p className="user-data__item-text"></p>
+                                    <div>
+                                    <h6 className="user-data__item-title">Phone number</h6>
+                                    <p className="user-data__item-text">+1 000-000-0000</p>
+                                    </div>
+                                    
                                     <button className="user-data__item-btn">Change</button>
                                 </div>
                                 <div className="user-data__item">
-                                    <h6 className="user-data__item-title"></h6>
-                                    <p className="user-data__item-text"></p>
+                                    <div>
+                                    <h6 className="user-data__item-title">Address</h6>
+                                    <p className="user-data__item-text">St 32 main downtown, Los Angeles, California, USA</p>
+                                    </div>
+                                    
                                     <button className="user-data__item-btn">Change</button>
                                 </div>
                                 <div className="user-data__item">
-                                    <h6 className="user-data__item-title"></h6>
-                                    <p className="user-data__item-text"></p>
+                                    <div>
+                                    <h6 className="user-data__item-title">Date of birth</h6>
+                                    <p className="user-data__item-text">01-01-1992</p>
+                                    </div>
+                                    
                                     <button className="user-data__item-btn">Change</button>
                                 </div>
                             </div>
