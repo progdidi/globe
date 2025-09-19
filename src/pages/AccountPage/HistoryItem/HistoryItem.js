@@ -43,7 +43,10 @@ const HistoryItem = () => {
                 </div>
             </div>
 
-            <button className="user-history__btn">Download Ticket</button>
+            <button className="user-history__download-btn">Download Ticket</button>
+
+            <button className="user-history__btn">></button>
+            
         </div>
     )
 }

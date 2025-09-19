@@ -1,3 +1,4 @@
+import NewsletterSection from '../../components/NewsletterSection/NewsletterSection';
 import HistoryItem from './HistoryItem/HistoryItem';
 import './accountPage.scss';
 
@@ -110,6 +111,8 @@ Upcoming</h3>
                 </div>
             </div>
         </section>
+
+        <NewsletterSection/>
         </>
      );
 }
